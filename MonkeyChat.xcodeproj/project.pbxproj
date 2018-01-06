@@ -1,0 +1,817 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80AB00091FA8698200E0A2CB /* MethodTraceConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 80AB00081FA8698200E0A2CB /* MethodTraceConfig.plist */; };
+		80AB000C1FA8698200E0A2CB /* put ipa or app here in Resources */ = {isa = PBXBuildFile; fileRef = 80AB000B1FA8698200E0A2CB /* put ipa or app here */; };
+		80AB00141FA8698200E0A2CB /* libMonkeyChatDylib.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 80AB00131FA8698200E0A2CB /* libMonkeyChatDylib.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		80AB00191FA8698200E0A2CB /* Cycript.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80AB00181FA8698200E0A2CB /* Cycript.framework */; };
+		80AB001B1FA8698200E0A2CB /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80AB001A1FA8698200E0A2CB /* JavaScriptCore.framework */; };
+		80AB001D1FA8698200E0A2CB /* RevealServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80AB001C1FA8698200E0A2CB /* RevealServer.framework */; };
+		80AB001F1FA8698200E0A2CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80AB001E1FA8698200E0A2CB /* Foundation.framework */; };
+		80AB00211FA8698200E0A2CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80AB00201FA8698200E0A2CB /* UIKit.framework */; };
+		80AB00251FA8698200E0A2CB /* ANYMethodLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 80AB00241FA8698200E0A2CB /* ANYMethodLog.h */; };
+		80AB00271FA8698200E0A2CB /* ANYMethodLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 80AB00261FA8698200E0A2CB /* ANYMethodLog.m */; };
+		80AB00291FA8698200E0A2CB /* MethodTrace.h in Headers */ = {isa = PBXBuildFile; fileRef = 80AB00281FA8698200E0A2CB /* MethodTrace.h */; };
+		80AB002B1FA8698200E0A2CB /* MethodTrace.m in Sources */ = {isa = PBXBuildFile; fileRef = 80AB002A1FA8698200E0A2CB /* MethodTrace.m */; };
+		80AB00301FA8698200E0A2CB /* AntiAntiDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 80AB002F1FA8698200E0A2CB /* AntiAntiDebug.m */; };
+		80AB00331FA8698200E0A2CB /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 80AB00321FA8698200E0A2CB /* fishhook.c */; };
+		80AB00351FA8698200E0A2CB /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = 80AB00341FA8698200E0A2CB /* fishhook.h */; };
+		80AB00381FA8698200E0A2CB /* MonkeyChatDylib.mm in Sources */ = {isa = PBXBuildFile; fileRef = 80AB00371FA8698200E0A2CB /* MonkeyChatDylib.mm */; };
+		80AB003A1FA8698200E0A2CB /* MonkeyChatDylib.h in Headers */ = {isa = PBXBuildFile; fileRef = 80AB00391FA8698200E0A2CB /* MonkeyChatDylib.h */; };
+		80AB003C1FA8698200E0A2CB /* MonkeyChatDylib.m in Sources */ = {isa = PBXBuildFile; fileRef = 80AB003B1FA8698200E0A2CB /* MonkeyChatDylib.m */; };
+		80C924961FFB4678009D5470 /* TouchManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 80C924941FFB4678009D5470 /* TouchManager.h */; };
+		80C924971FFB4678009D5470 /* TouchManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 80C924951FFB4678009D5470 /* TouchManager.mm */; };
+		80C9249E1FFB509B009D5470 /* TouchExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 80C9249C1FFB509B009D5470 /* TouchExtension.h */; };
+		80C9249F1FFB509B009D5470 /* TouchExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C9249D1FFB509B009D5470 /* TouchExtension.m */; };
+		ACF16C6236563B97CBB2F4B9 /* libPods-MonkeyChatDylib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D611844B726B47AB5251B7BB /* libPods-MonkeyChatDylib.a */; };
+		DA4C8F788892D47C0568CBC4 /* libPods-MonkeyChat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FE459524FA4A759F3F65E19 /* libPods-MonkeyChat.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80AB00151FA8698200E0A2CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80ABFFFA1FA8698200E0A2CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80AB00121FA8698200E0A2CB;
+			remoteInfo = MonkeyChatDylib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		80AB00021FA8698200E0A2CB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				80AB00141FA8698200E0A2CB /* libMonkeyChatDylib.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		493CCE35107E55E7F39873C3 /* Pods-MonkeyChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonkeyChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MonkeyChat/Pods-MonkeyChat.debug.xcconfig"; sourceTree = "<group>"; };
+		4FE459524FA4A759F3F65E19 /* libPods-MonkeyChat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MonkeyChat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8009E4A91FFD0889006DA0A1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8009E4AB1FFD088E006DA0A1 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		804D27991FFD10DA00FE71E2 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		80AB00051FA8698200E0A2CB /* MonkeyChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonkeyChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80AB00081FA8698200E0A2CB /* MethodTraceConfig.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = MethodTraceConfig.plist; sourceTree = "<group>"; };
+		80AB000B1FA8698200E0A2CB /* put ipa or app here */ = {isa = PBXFileReference; lastKnownFileType = text; name = "put ipa or app here"; path = "TargetApp/put ipa or app here"; sourceTree = "<group>"; };
+		80AB000D1FA8698200E0A2CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80AB00131FA8698200E0A2CB /* libMonkeyChatDylib.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libMonkeyChatDylib.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		80AB00181FA8698200E0A2CB /* Cycript.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cycript.framework; path = Library/Frameworks/Cycript.framework; sourceTree = DEVELOPER_DIR; };
+		80AB001A1FA8698200E0A2CB /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		80AB001C1FA8698200E0A2CB /* RevealServer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RevealServer.framework; path = Library/Frameworks/RevealServer.framework; sourceTree = DEVELOPER_DIR; };
+		80AB001E1FA8698200E0A2CB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		80AB00201FA8698200E0A2CB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		80AB00241FA8698200E0A2CB /* ANYMethodLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ANYMethodLog.h; path = MethodTrace/ANYMethodLog.h; sourceTree = "<group>"; };
+		80AB00261FA8698200E0A2CB /* ANYMethodLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ANYMethodLog.m; path = MethodTrace/ANYMethodLog.m; sourceTree = "<group>"; };
+		80AB00281FA8698200E0A2CB /* MethodTrace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MethodTrace.h; path = MethodTrace/MethodTrace.h; sourceTree = "<group>"; };
+		80AB002A1FA8698200E0A2CB /* MethodTrace.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MethodTrace.m; path = MethodTrace/MethodTrace.m; sourceTree = "<group>"; };
+		80AB002D1FA8698200E0A2CB /* MonkeyChatDylib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MonkeyChatDylib-Prefix.pch"; sourceTree = "<group>"; };
+		80AB002F1FA8698200E0A2CB /* AntiAntiDebug.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AntiAntiDebug.m; path = AntiAntiDebug/AntiAntiDebug.m; sourceTree = "<group>"; };
+		80AB00321FA8698200E0A2CB /* fishhook.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = fishhook.c; path = fishhook/fishhook.c; sourceTree = "<group>"; };
+		80AB00341FA8698200E0A2CB /* fishhook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fishhook.h; path = fishhook/fishhook.h; sourceTree = "<group>"; };
+		80AB00361FA8698200E0A2CB /* MonkeyChatDylib.xm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = MonkeyChatDylib.xm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		80AB00371FA8698200E0A2CB /* MonkeyChatDylib.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = MonkeyChatDylib.mm; sourceTree = "<group>"; };
+		80AB00391FA8698200E0A2CB /* MonkeyChatDylib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MonkeyChatDylib.h; sourceTree = "<group>"; };
+		80AB003B1FA8698200E0A2CB /* MonkeyChatDylib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MonkeyChatDylib.m; sourceTree = "<group>"; };
+		80C924941FFB4678009D5470 /* TouchManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchManager.h; sourceTree = "<group>"; };
+		80C924951FFB4678009D5470 /* TouchManager.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = TouchManager.mm; sourceTree = "<group>"; };
+		80C9249C1FFB509B009D5470 /* TouchExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchExtension.h; sourceTree = "<group>"; };
+		80C9249D1FFB509B009D5470 /* TouchExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchExtension.m; sourceTree = "<group>"; };
+		B91264C1BF1D15BB9D492C2A /* Pods-MonkeyChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonkeyChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-MonkeyChat/Pods-MonkeyChat.release.xcconfig"; sourceTree = "<group>"; };
+		BF9BABF25D507C7724478359 /* Pods-MonkeyChatDylib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonkeyChatDylib.release.xcconfig"; path = "Pods/Target Support Files/Pods-MonkeyChatDylib/Pods-MonkeyChatDylib.release.xcconfig"; sourceTree = "<group>"; };
+		D611844B726B47AB5251B7BB /* libPods-MonkeyChatDylib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MonkeyChatDylib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6DFB196F8D45BF211DEF855 /* Pods-MonkeyChatDylib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonkeyChatDylib.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MonkeyChatDylib/Pods-MonkeyChatDylib.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80AB00101FA8698200E0A2CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80AB001B1FA8698200E0A2CB /* JavaScriptCore.framework in Frameworks */,
+				80AB001D1FA8698200E0A2CB /* RevealServer.framework in Frameworks */,
+				80AB00191FA8698200E0A2CB /* Cycript.framework in Frameworks */,
+				80AB001F1FA8698200E0A2CB /* Foundation.framework in Frameworks */,
+				80AB00211FA8698200E0A2CB /* UIKit.framework in Frameworks */,
+				ACF16C6236563B97CBB2F4B9 /* libPods-MonkeyChatDylib.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80ABFFFF1FA8698200E0A2CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA4C8F788892D47C0568CBC4 /* libPods-MonkeyChat.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80AB00061FA8698200E0A2CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80AB00051FA8698200E0A2CB /* MonkeyChat.app */,
+				80AB00131FA8698200E0A2CB /* libMonkeyChatDylib.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80AB00071FA8698200E0A2CB /* MonkeyChat */ = {
+			isa = PBXGroup;
+			children = (
+				80AB00081FA8698200E0A2CB /* MethodTraceConfig.plist */,
+				80AB000D1FA8698200E0A2CB /* Info.plist */,
+				80AB000A1FA8698200E0A2CB /* TargetApp */,
+			);
+			path = MonkeyChat;
+			sourceTree = "<group>";
+		};
+		80AB000A1FA8698200E0A2CB /* TargetApp */ = {
+			isa = PBXGroup;
+			children = (
+				80AB000B1FA8698200E0A2CB /* put ipa or app here */,
+			);
+			name = TargetApp;
+			sourceTree = "<group>";
+		};
+		80AB00171FA8698200E0A2CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				804D27991FFD10DA00FE71E2 /* OpenGLES.framework */,
+				8009E4AB1FFD088E006DA0A1 /* CoreMedia.framework */,
+				8009E4A91FFD0889006DA0A1 /* AVFoundation.framework */,
+				80AB00181FA8698200E0A2CB /* Cycript.framework */,
+				80AB001A1FA8698200E0A2CB /* JavaScriptCore.framework */,
+				80AB001C1FA8698200E0A2CB /* RevealServer.framework */,
+				80AB001E1FA8698200E0A2CB /* Foundation.framework */,
+				80AB00201FA8698200E0A2CB /* UIKit.framework */,
+				4FE459524FA4A759F3F65E19 /* libPods-MonkeyChat.a */,
+				D611844B726B47AB5251B7BB /* libPods-MonkeyChatDylib.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		80AB00221FA8698200E0A2CB /* MonkeyChatDylib */ = {
+			isa = PBXGroup;
+			children = (
+				80AB00361FA8698200E0A2CB /* MonkeyChatDylib.xm */,
+				80AB00371FA8698200E0A2CB /* MonkeyChatDylib.mm */,
+				80AB00391FA8698200E0A2CB /* MonkeyChatDylib.h */,
+				80AB003B1FA8698200E0A2CB /* MonkeyChatDylib.m */,
+				80C924941FFB4678009D5470 /* TouchManager.h */,
+				80C924951FFB4678009D5470 /* TouchManager.mm */,
+				80C9249C1FFB509B009D5470 /* TouchExtension.h */,
+				80C9249D1FFB509B009D5470 /* TouchExtension.m */,
+				80AB00231FA8698200E0A2CB /* MethodTrace */,
+				80AB002E1FA8698200E0A2CB /* AntiAntiDebug */,
+				80AB00311FA8698200E0A2CB /* fishhook */,
+				80AB002C1FA8698200E0A2CB /* Supporting Files */,
+			);
+			path = MonkeyChatDylib;
+			sourceTree = "<group>";
+		};
+		80AB00231FA8698200E0A2CB /* MethodTrace */ = {
+			isa = PBXGroup;
+			children = (
+				80AB00241FA8698200E0A2CB /* ANYMethodLog.h */,
+				80AB00261FA8698200E0A2CB /* ANYMethodLog.m */,
+				80AB00281FA8698200E0A2CB /* MethodTrace.h */,
+				80AB002A1FA8698200E0A2CB /* MethodTrace.m */,
+			);
+			name = MethodTrace;
+			sourceTree = "<group>";
+		};
+		80AB002C1FA8698200E0A2CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80AB002D1FA8698200E0A2CB /* MonkeyChatDylib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		80AB002E1FA8698200E0A2CB /* AntiAntiDebug */ = {
+			isa = PBXGroup;
+			children = (
+				80AB002F1FA8698200E0A2CB /* AntiAntiDebug.m */,
+			);
+			name = AntiAntiDebug;
+			sourceTree = "<group>";
+		};
+		80AB00311FA8698200E0A2CB /* fishhook */ = {
+			isa = PBXGroup;
+			children = (
+				80AB00321FA8698200E0A2CB /* fishhook.c */,
+				80AB00341FA8698200E0A2CB /* fishhook.h */,
+			);
+			name = fishhook;
+			sourceTree = "<group>";
+		};
+		80ABFFF91FA8698200E0A2CB = {
+			isa = PBXGroup;
+			children = (
+				80AB00071FA8698200E0A2CB /* MonkeyChat */,
+				80AB00221FA8698200E0A2CB /* MonkeyChatDylib */,
+				80AB00171FA8698200E0A2CB /* Frameworks */,
+				80AB00061FA8698200E0A2CB /* Products */,
+				B33B4E98E2E84C1A38D20DF0 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		B33B4E98E2E84C1A38D20DF0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				493CCE35107E55E7F39873C3 /* Pods-MonkeyChat.debug.xcconfig */,
+				B91264C1BF1D15BB9D492C2A /* Pods-MonkeyChat.release.xcconfig */,
+				E6DFB196F8D45BF211DEF855 /* Pods-MonkeyChatDylib.debug.xcconfig */,
+				BF9BABF25D507C7724478359 /* Pods-MonkeyChatDylib.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		80AB00111FA8698200E0A2CB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80AB00251FA8698200E0A2CB /* ANYMethodLog.h in Headers */,
+				80AB00291FA8698200E0A2CB /* MethodTrace.h in Headers */,
+				80AB003A1FA8698200E0A2CB /* MonkeyChatDylib.h in Headers */,
+				80C9249E1FFB509B009D5470 /* TouchExtension.h in Headers */,
+				80C924961FFB4678009D5470 /* TouchManager.h in Headers */,
+				80AB00351FA8698200E0A2CB /* fishhook.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		80AB00041FA8698200E0A2CB /* MonkeyChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80AB00421FA8698200E0A2CB /* Build configuration list for PBXNativeTarget "MonkeyChat" */;
+			buildPhases = (
+				3C7AE04D29B217748185E39C /* [CP] Check Pods Manifest.lock */,
+				80ABFFFE1FA8698200E0A2CB /* Sources */,
+				80ABFFFF1FA8698200E0A2CB /* Frameworks */,
+				80AB00001FA8698200E0A2CB /* ShellScript */,
+				80AB00011FA8698200E0A2CB /* Resources */,
+				80AB00021FA8698200E0A2CB /* CopyFiles */,
+				80AB00031FA8698200E0A2CB /* ShellScript */,
+				8804D486CF95B01C299F6365 /* [CP] Embed Pods Frameworks */,
+				BBFB163629A9133C1D72B2CC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80AB00161FA8698200E0A2CB /* PBXTargetDependency */,
+			);
+			name = MonkeyChat;
+			productName = MonkeyChat;
+			productReference = 80AB00051FA8698200E0A2CB /* MonkeyChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80AB00121FA8698200E0A2CB /* MonkeyChatDylib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80AB003F1FA8698200E0A2CB /* Build configuration list for PBXNativeTarget "MonkeyChatDylib" */;
+			buildPhases = (
+				502BA59CEC7300149E6D9EA1 /* [CP] Check Pods Manifest.lock */,
+				80AB000E1FA8698200E0A2CB /* ShellScript */,
+				80AB000F1FA8698200E0A2CB /* Sources */,
+				80AB00101FA8698200E0A2CB /* Frameworks */,
+				80AB00111FA8698200E0A2CB /* Headers */,
+				BADB9E3FE80F428FCE7E7F2E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MonkeyChatDylib;
+			productName = MonkeyChatDylib;
+			productReference = 80AB00131FA8698200E0A2CB /* libMonkeyChatDylib.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80ABFFFA1FA8698200E0A2CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = hly;
+				TargetAttributes = {
+					80AB00041FA8698200E0A2CB = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Manual;
+					};
+					80AB00121FA8698200E0A2CB = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 80ABFFFD1FA8698200E0A2CB /* Build configuration list for PBXProject "MonkeyChat" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 80ABFFF91FA8698200E0A2CB;
+			productRefGroup = 80AB00061FA8698200E0A2CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80AB00041FA8698200E0A2CB /* MonkeyChat */,
+				80AB00121FA8698200E0A2CB /* MonkeyChatDylib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80AB00011FA8698200E0A2CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80AB000C1FA8698200E0A2CB /* put ipa or app here in Resources */,
+				80AB00091FA8698200E0A2CB /* MethodTraceConfig.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C7AE04D29B217748185E39C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MonkeyChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		502BA59CEC7300149E6D9EA1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MonkeyChatDylib-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80AB00001FA8698200E0A2CB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = /opt/MonkeyDev/Tools/pack.sh;
+		};
+		80AB00031FA8698200E0A2CB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/Tools/pack.sh codesign";
+		};
+		80AB000E1FA8698200E0A2CB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/bin/md --xcbp-logos";
+		};
+		8804D486CF95B01C299F6365 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MonkeyChat/Pods-MonkeyChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BADB9E3FE80F428FCE7E7F2E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MonkeyChatDylib/Pods-MonkeyChatDylib-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBFB163629A9133C1D72B2CC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MonkeyChat/Pods-MonkeyChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80AB000F1FA8698200E0A2CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80C9249F1FFB509B009D5470 /* TouchExtension.m in Sources */,
+				80AB00301FA8698200E0A2CB /* AntiAntiDebug.m in Sources */,
+				80AB002B1FA8698200E0A2CB /* MethodTrace.m in Sources */,
+				80AB00331FA8698200E0A2CB /* fishhook.c in Sources */,
+				80AB003C1FA8698200E0A2CB /* MonkeyChatDylib.m in Sources */,
+				80AB00381FA8698200E0A2CB /* MonkeyChatDylib.mm in Sources */,
+				80AB00271FA8698200E0A2CB /* ANYMethodLog.m in Sources */,
+				80C924971FFB4678009D5470 /* TouchManager.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80ABFFFE1FA8698200E0A2CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80AB00161FA8698200E0A2CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80AB00121FA8698200E0A2CB /* MonkeyChatDylib */;
+			targetProxy = 80AB00151FA8698200E0A2CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		80AB003D1FA8698200E0A2CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		80AB003E1FA8698200E0A2CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80AB00401FA8698200E0A2CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6DFB196F8D45BF211DEF855 /* Pods-MonkeyChatDylib.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = T8UY534663;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks/**",
+					"$(MonkeyDevPath)/Librarys/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+					"$(PROJECT_DIR)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_INPUT_FILETYPE = automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MonkeyChatDylib/MonkeyChatDylib-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"OBJC_OLD_DISPATCH_PROTOTYPES=1",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/include",
+					"$(MonkeyDevTheosPath)/vendor/include/**",
+				);
+				INSTALL_PATH = "@executable_path/Frameworks/libMonkeyChatDylib.dylib";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks",
+					"$(MonkeyDevTheosPath)/vendor/lib/**",
+				);
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-DTHEOS_INSTANCE_NAME=\"\\\"MonkeyChatDylib\\\"\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-weak_library",
+					"/usr/lib/libc++.dylib",
+					"-weak_library",
+					"/usr/lib/libstdc++.dylib",
+					"-lsubstrate",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		80AB00411FA8698200E0A2CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF9BABF25D507C7724478359 /* Pods-MonkeyChatDylib.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = T8UY534663;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks/**",
+					"$(MonkeyDevPath)/Librarys/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+					"$(PROJECT_DIR)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_INPUT_FILETYPE = automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MonkeyChatDylib/MonkeyChatDylib-Prefix.pch";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/include",
+					"$(MonkeyDevTheosPath)/vendor/include/**",
+				);
+				INSTALL_PATH = "@executable_path/Frameworks/libMonkeyChatDylib.dylib";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks",
+					"$(MonkeyDevTheosPath)/vendor/lib/**",
+				);
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-DTHEOS_INSTANCE_NAME=\"\\\"MonkeyChatDylib\\\"\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-weak_library",
+					"/usr/lib/libc++.dylib",
+					"-weak_library",
+					"/usr/lib/libstdc++.dylib",
+					"-lsubstrate",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		80AB00431FA8698200E0A2CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 493CCE35107E55E7F39873C3 /* Pods-MonkeyChat.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
+				COMPRESS_PNG_FILES = NO;
+				DEVELOPMENT_TEAM = Z5T9VCP9MW;
+				ENABLE_BITCODE = NO;
+				GCC_INPUT_FILETYPE = automatic;
+				INFOPLIST_FILE = MonkeyChat/Info.plist;
+				MONKEYDEV_CLASS_DUMP = NO;
+				MONKEYDEV_RESTORE_SYMBOL = NO;
+				PODS_CONFIGURATION_BUILD_DIR = "$BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				PODS_ROOT = "${SRCROOT}/Pods";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hiwedo.MonkeyChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5ab3f223-6488-42dd-aae7-2e61b0dfe640";
+				PROVISIONING_PROFILE_SPECIFIER = "match Development com.hiwedo.*";
+				STRIP_PNG_TEXT = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80AB00441FA8698200E0A2CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B91264C1BF1D15BB9D492C2A /* Pods-MonkeyChat.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
+				COMPRESS_PNG_FILES = NO;
+				DEVELOPMENT_TEAM = Z5T9VCP9MW;
+				ENABLE_BITCODE = NO;
+				GCC_INPUT_FILETYPE = automatic;
+				INFOPLIST_FILE = MonkeyChat/Info.plist;
+				MONKEYDEV_CLASS_DUMP = NO;
+				MONKEYDEV_RESTORE_SYMBOL = NO;
+				PODS_CONFIGURATION_BUILD_DIR = "$BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				PODS_ROOT = "${SRCROOT}/Pods";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hiwedo.MonkeyChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5ab3f223-6488-42dd-aae7-2e61b0dfe640";
+				PROVISIONING_PROFILE_SPECIFIER = "match Development com.hiwedo.*";
+				STRIP_PNG_TEXT = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80AB003F1FA8698200E0A2CB /* Build configuration list for PBXNativeTarget "MonkeyChatDylib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80AB00401FA8698200E0A2CB /* Debug */,
+				80AB00411FA8698200E0A2CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80AB00421FA8698200E0A2CB /* Build configuration list for PBXNativeTarget "MonkeyChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80AB00431FA8698200E0A2CB /* Debug */,
+				80AB00441FA8698200E0A2CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80ABFFFD1FA8698200E0A2CB /* Build configuration list for PBXProject "MonkeyChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80AB003D1FA8698200E0A2CB /* Debug */,
+				80AB003E1FA8698200E0A2CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80ABFFFA1FA8698200E0A2CB /* Project object */;
+}
