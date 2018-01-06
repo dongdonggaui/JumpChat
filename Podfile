@@ -1,5 +1,4 @@
 # Uncomment the next line to define a global platform for your project
-source 'http://gitlab.douyuios.com/douyu-ios/MonkeySpecs.git'
 source 'https://github.com/CocoaPods/Specs.git'
 
 platform :ios, '8.0'
