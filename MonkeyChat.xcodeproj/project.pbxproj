@@ -26,7 +26,7 @@
 		80AB003A1FA8698200E0A2CB /* MonkeyChatDylib.h in Headers */ = {isa = PBXBuildFile; fileRef = 80AB00391FA8698200E0A2CB /* MonkeyChatDylib.h */; };
 		80AB003C1FA8698200E0A2CB /* MonkeyChatDylib.m in Sources */ = {isa = PBXBuildFile; fileRef = 80AB003B1FA8698200E0A2CB /* MonkeyChatDylib.m */; };
 		80C924961FFB4678009D5470 /* TouchManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 80C924941FFB4678009D5470 /* TouchManager.h */; };
-		80C924971FFB4678009D5470 /* TouchManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 80C924951FFB4678009D5470 /* TouchManager.mm */; };
+		80C924971FFB4678009D5470 /* TouchManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C924951FFB4678009D5470 /* TouchManager.m */; };
 		80C9249E1FFB509B009D5470 /* TouchExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 80C9249C1FFB509B009D5470 /* TouchExtension.h */; };
 		80C9249F1FFB509B009D5470 /* TouchExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C9249D1FFB509B009D5470 /* TouchExtension.m */; };
 		ACF16C6236563B97CBB2F4B9 /* libPods-MonkeyChatDylib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D611844B726B47AB5251B7BB /* libPods-MonkeyChatDylib.a */; };
@@ -85,7 +85,7 @@
 		80AB00391FA8698200E0A2CB /* MonkeyChatDylib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MonkeyChatDylib.h; sourceTree = "<group>"; };
 		80AB003B1FA8698200E0A2CB /* MonkeyChatDylib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MonkeyChatDylib.m; sourceTree = "<group>"; };
 		80C924941FFB4678009D5470 /* TouchManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchManager.h; sourceTree = "<group>"; };
-		80C924951FFB4678009D5470 /* TouchManager.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = TouchManager.mm; sourceTree = "<group>"; };
+		80C924951FFB4678009D5470 /* TouchManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchManager.m; sourceTree = "<group>"; };
 		80C9249C1FFB509B009D5470 /* TouchExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchExtension.h; sourceTree = "<group>"; };
 		80C9249D1FFB509B009D5470 /* TouchExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchExtension.m; sourceTree = "<group>"; };
 		B91264C1BF1D15BB9D492C2A /* Pods-MonkeyChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonkeyChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-MonkeyChat/Pods-MonkeyChat.release.xcconfig"; sourceTree = "<group>"; };
@@ -171,7 +171,7 @@
 				80AB00391FA8698200E0A2CB /* MonkeyChatDylib.h */,
 				80AB003B1FA8698200E0A2CB /* MonkeyChatDylib.m */,
 				80C924941FFB4678009D5470 /* TouchManager.h */,
-				80C924951FFB4678009D5470 /* TouchManager.mm */,
+				80C924951FFB4678009D5470 /* TouchManager.m */,
 				80C9249C1FFB509B009D5470 /* TouchExtension.h */,
 				80C9249D1FFB509B009D5470 /* TouchExtension.m */,
 				80AB00231FA8698200E0A2CB /* MethodTrace */,
@@ -487,7 +487,7 @@
 				80AB003C1FA8698200E0A2CB /* MonkeyChatDylib.m in Sources */,
 				80AB00381FA8698200E0A2CB /* MonkeyChatDylib.mm in Sources */,
 				80AB00271FA8698200E0A2CB /* ANYMethodLog.m in Sources */,
-				80C924971FFB4678009D5470 /* TouchManager.mm in Sources */,
+				80C924971FFB4678009D5470 /* TouchManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
